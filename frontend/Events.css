@@ -1,0 +1,45 @@
+.events-container {
+    width: 80%;
+    margin: auto;
+  }
+  
+  .events-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .event-box {
+    border: 2px solid #3498db;
+    padding: 15px;
+    margin: 15px;
+    width: 45%;
+    box-sizing: border-box;
+    background-color: #ecf0f1;
+    border-radius: 8px;
+    font-size: 23px; /* Adjust the font size as needed */
+  }
+  
+  
+  .pagination {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .prev-next-button {
+    padding: 10px 15px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:disabled {
+    background-color: #bdc3c7;
+    cursor: not-allowed;
+  }
+  
+  
