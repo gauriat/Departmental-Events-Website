@@ -78,19 +78,6 @@ Includes **CRUD operations:**
 
 ---
 
-## 🧪 Testing Highlights
-
-| Test Case                 | Description                        | Result |
-|----------------------------|-----------------------------------|--------|
-| ✅ Login with valid creds    | User / Admin login flow           | Pass   |
-| ✅ Invalid login attempts    | Wrong password/email             | Pass   |
-| ✅ Event creation / edits    | Admin adding & modifying events  | Pass   |
-| ✅ Registration              | Students registering for events | Pass   |
-| ✅ Duplicate registration    | Prevent repeat entries          | Pass   |
-
-Used **Selenium IDE** to ensure UI workflows like login, event browsing, and registration operate seamlessly.
-
----
 
 ## 🔁 CI/CD Pipeline
 
@@ -102,23 +89,6 @@ Implemented with **Jenkins**, automating:
 
 ---
 
-## 📸 Screenshots
-
-> **ℹ️ Upload your images to your repo (in `images/` or root) and update these paths.**
-
-### 🖥️ Login Page
-![Login](images/login.png)
-
-### 📝 Event Registration
-![Register](images/register.png)
-
-### 🏠 Admin Dashboard
-![Admin Dashboard](images/dashboard.png)
-
-### 📚 Past Events View
-![Past Events](images/past_events.png)
-
----
 
 ## 🔮 Future Scope
 
